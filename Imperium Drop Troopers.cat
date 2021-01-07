@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="10" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Discord" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="172" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="1a1f-3413-bb7e-5f74" name="Drop Company Commander" hidden="false"/>
+    <categoryEntry id="abdd-e244-78f8-a500" name="Captain Jonus Remaus" hidden="false"/>
+    <categoryEntry id="0b84-6c77-7ca6-6049" name="Colonel Yris Akino" hidden="false"/>
+    <categoryEntry id="9d9b-2118-5926-3037" name="Colonel Johanna Van Meer" hidden="false"/>
+    <categoryEntry id="6727-a222-64b8-3f6c" name="Captain Gerek" hidden="false"/>
+    <categoryEntry id="2264-9121-7bfe-8912" name="Captain Thanstadt" hidden="false"/>
+    <categoryEntry id="1b22-d0fb-43c8-01c6" name="Major Markus Duras" hidden="false"/>
+    <categoryEntry id="234a-eddc-df22-d136" name="Drop Lord Commissar" hidden="false"/>
+    <categoryEntry id="a4aa-fd6c-d379-4066" name="Storm Company Commander" hidden="false"/>
+    <categoryEntry id="0f97-9e32-f08e-26c8" name="Drop Platoon Commander" hidden="false"/>
+    <categoryEntry id="34af-9856-7345-c109" name="Storm Platoon Commander" hidden="false"/>
+    <categoryEntry id="7a62-7ebd-4966-889e" name="Recon Platoon Leader" hidden="false"/>
+    <categoryEntry id="6495-a870-234d-5d7c" name="Sentinel Command Vehicle " hidden="false"/>
+    <categoryEntry id="d3f5-1171-56c5-8025" name="Tauros Command Vehicle" hidden="false"/>
+    <categoryEntry id="2353-740e-72e6-1a49" name="Captain Xhyst" hidden="false"/>
+    <categoryEntry id="eff6-c1fb-6ad9-1beb" name="Ground Scanner Officer" hidden="false"/>
+    <categoryEntry id="f6f9-b139-abb3-b719" name="Drop Trooper Squad" hidden="false"/>
+    <categoryEntry id="6f40-a0dd-2da0-97d2" name="Stormtrooper Squad" hidden="false"/>
+    <categoryEntry id="4914-792f-cdc2-37ac" name="Combat Engineer Squad" hidden="false"/>
+    <categoryEntry id="d7fd-223d-0f13-7c1d" name="Tactical Air Controller" hidden="false"/>
+    <categoryEntry id="15d9-0127-08b4-78ea" name="D-99 &apos;Decimator&apos; Squad" hidden="false"/>
+    <categoryEntry id="37f6-111f-131e-c0e1" name="D-99 &apos;Executioner&apos; Squad" hidden="false"/>
+    <categoryEntry id="4b23-b8e6-d64f-9a29" name="D-99 &apos;Extermination&apos; Squad" hidden="false"/>
+    <categoryEntry id="1746-d2ce-dace-7800" name="Command Squad" hidden="false"/>
+    <categoryEntry id="c375-57a5-6d5e-512a" name="Storm Command Squad" hidden="false"/>
+    <categoryEntry id="4e5f-3ab2-3cc2-0bf1" name="Commissar" hidden="false"/>
+    <categoryEntry id="1f46-9849-1f2e-8245" name="Veteran Squad" hidden="false"/>
+    <categoryEntry id="e158-97be-7b81-5308" name="Sniper Squad" hidden="false"/>
+    <categoryEntry id="e0c1-a6fb-d622-546e" name="Special Weapons Squad" hidden="false"/>
+    <categoryEntry id="0e1b-bfaa-7b93-8fa7" name="Tech-Priest Enginseer" hidden="false"/>
+    <categoryEntry id="2486-9684-8911-033e" name="Servitor" hidden="false"/>
+    <categoryEntry id="a89d-3278-0ec0-5096" name="Ogryn Bodyguard" hidden="false"/>
+    <categoryEntry id="3d67-de09-7466-0570" name="Drop Ogryns Squad" hidden="false"/>
+    <categoryEntry id="3fca-7eff-fb02-7d33" name="Pathfinder Squad" hidden="false"/>
+    <categoryEntry id="8c4b-920c-4f3e-ba84" name="Drop Sentinel" hidden="false"/>
+    <categoryEntry id="8cd4-a78c-dd0f-f92d" name="Recon Bike Squad" hidden="false"/>
+    <categoryEntry id="2899-c5d8-7ffd-b688" name="Tauros Assault Vehicle" hidden="false"/>
+    <categoryEntry id="5e04-63d3-678d-33f2" name="Tauros Medicae" hidden="false"/>
+    <categoryEntry id="50d6-44b5-891e-ef18" name="Tauros Venator" hidden="false"/>
+    <categoryEntry id="8547-c3ad-c94c-a81a" name="Cyclops Demolition Vehicle" hidden="false"/>
+    <categoryEntry id="2666-9c86-8423-8133" name="Sentinel Powerlifter" hidden="false"/>
+    <categoryEntry id="520d-e46f-362a-c75a" name="Heavy Weapons Squad" hidden="false"/>
+    <categoryEntry id="ea9c-45b9-85f4-836c" name="Support Sentinel" hidden="false"/>
+    <categoryEntry id="c53a-20d6-a767-0fe2" name="Drop Weapons Platform" hidden="false"/>
+    <categoryEntry id="ce71-8e9e-351b-5c8f" name="Tauros Maximus" hidden="false"/>
+    <categoryEntry id="fd3a-61cf-e993-1024" name="Trojan Support Vehicle" hidden="false"/>
+    <categoryEntry id="69a8-d29d-af99-62cb" name="Valkyrie Assault Carrier" hidden="false"/>
+    <categoryEntry id="4f82-fc92-f76f-ee6a" name="Valkyrie Sky Talon" hidden="false"/>
+    <categoryEntry id="192a-6fd1-1b56-1be9" name="Avenger Strike Fighter" hidden="false"/>
+    <categoryEntry id="2403-d8e2-7255-a1bc" name="Lightning Strike Fighter" hidden="false"/>
+    <categoryEntry id="d7e2-e000-e155-533e" name="Thunderbolt Heavy Fighter" hidden="false"/>
+    <categoryEntry id="ee5d-7067-c1fc-69f0" name="Thunderbolt Fury Heavy Fighter" hidden="false"/>
+    <categoryEntry id="a06f-5410-a139-5e42" name="Vendetta Gunship" hidden="false"/>
+    <categoryEntry id="8fd8-9667-06c6-3cf9" name="Vulture Gunship" hidden="false"/>
+    <categoryEntry id="0956-3347-5fc7-5502" name="Marauder Bomber" hidden="false"/>
+    <categoryEntry id="0477-dd67-92dc-cfbd" name="Marauder Destroyer" hidden="false"/>
+    <categoryEntry id="98af-ea13-5069-b7e4" name="Tarantula Battery" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="15e3-3696-b3b0-55da" name="Avenger Strike Fighter" hidden="false" collective="false" import="true" targetId="047d-20b5-1f5d-a706" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eca6-4f05-0974-8775" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e930-1efc-1b52-8ab3" name="Captain Jonus Remaus " hidden="false" collective="false" import="true" targetId="0f7b-b898-65d1-c613" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9a11-85ca-ad1c-c52b" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cab7-4a53-9d99-1d12" name="Captain Gerek" hidden="false" collective="false" import="true" targetId="bf49-3fe5-4e90-4a40" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ba57-46f5-79fc-ad88" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e33-11dc-20fc-5b36" name="Captain Thanstadt" hidden="false" collective="false" import="true" targetId="f148-06cb-68d7-cf72" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="04ee-370e-dfbd-46e0" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b2d6-a84e-692c-3602" name="Captain Xhyst" hidden="false" collective="false" import="true" targetId="411f-51e6-ff4a-6040" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d48e-e75f-437e-f77a" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c1ac-29a7-4e63-545e" name="Colonel Johanna Van Meer" hidden="false" collective="false" import="true" targetId="ea77-701a-3faf-5fd5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e6a7-ea14-58a7-3545" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a82e-1f87-4483-075e" name="Colonel Yris Akino" hidden="false" collective="false" import="true" targetId="75b8-e008-9fc9-1420" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f268-11ff-3c26-216c" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9c4a-185e-b7f7-51ea" name="Regimental Doctrine" hidden="false" collective="false" import="true" targetId="99ec-85bb-2d2a-64da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="57d0-539e-2c03-ffcd" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ee1b-4016-99e1-195a" name="Drop Company Commander" hidden="false" collective="false" import="true" targetId="2440-4b60-7059-a694" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea1f-1b70-5890-b7c3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="0f7b-b898-65d1-c613" name="Captain Jonus Remaus " hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735b-994a-8337-372b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="55.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8774-b838-4bb8-9ef3" name="Display Drop Orders" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d8-b878-073b-9bdd" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a9-6f9c-5f5c-c54e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="43ea-f543-4302-5373" name="Bring it Down!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
+          </characteristics>
+        </profile>
+        <profile id="d9c7-4048-e399-7f35" name="First Rank Fire Second Rank Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="047d-20b5-1f5d-a706" name="Avenger Strike Fighter" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="e8a2-7ca1-25a8-7c8c" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="pts" typeId="points" value="165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f148-06cb-68d7-cf72" name="Captain Thanstadt" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de5-1b6f-49a8-fa1b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="411f-51e6-ff4a-6040" name="Captain Xhyst" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb02-b632-b56f-2614" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf49-3fe5-4e90-4a40" name="Captain Gerek" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb6-2b42-a097-3fae" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea77-701a-3faf-5fd5" name="Colonel Johanna Van Meer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cfb-3c83-5cbc-2069" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75b8-e008-9fc9-1420" name="Colonel Yris Akino" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c5-f449-f456-8a0a" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="99ec-85bb-2d2a-64da" name="Regimental Doctrine" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4444-24fb-3e1d-77f5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0db-0767-d053-7ab9" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="16bb-a722-0fc2-84ab" name="Regimental Doctrines" hidden="false" collective="false" import="true" targetId="ede4-c554-bba9-362f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c9-51d3-2540-4a09" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a3b-6044-3d3b-2960" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="ea6f-2b38-24b7-40d1" name="Drop Lord Commissar" hidden="false" collective="false" import="true" type="model">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2440-4b60-7059-a694" name="Drop Company Commander" hidden="false" collective="false" import="true" type="model">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="4aa4-21cb-0466-f379" name="Drop Trooper Heavy Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8437-a782-e1d8-7a4b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="be02-e28d-dbcc-c972" name="Mortar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4336-7103-6c0b-50d2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ec21-9be4-cf28-ada2" name="Mortar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d51-7f57-703f-1469" name="Heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e502-b0d4-847f-6705" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7c9c-de6b-0fc1-9912" name="Heavy bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b966-3e04-0540-f7d7" name="Missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f6-6334-65ce-536d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3f63-862d-dee2-f86e" name="Missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ede4-c554-bba9-362f" name="Regimental Doctrines" hidden="false" collective="false" import="true" defaultSelectionEntryId="af82-f212-4dd3-3a4d">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f7-98e4-3e5d-5ff2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dc1-9783-aed5-3bee" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d13e-8431-bd07-72c3" name="Phantine Skyborne" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d26-f23d-4aaa-6e51" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="70f1-74e1-d08a-3341" name="Phantine Skyborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・A &lt;PHANTINE&gt; AIRCRAFT that targets the same enemy unit as a &lt;PHANTINE&gt; INFANTRY unit during the Shooting phase may re-roll hit rolls of 1.
+・A &lt;PHANTINE&gt; AIRCRAFT with this doctrine has a damage table double the number of Wounds they have remaining for the purposes of determining what their characteristics are.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="af82-f212-4dd3-3a4d" name="Elysia" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c6c-e361-43b7-7b40" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="73b9-5d7c-5ef8-88f4" name="Elysia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine can Advance and still shoot any weapon type (except Heavy weapons). When they do so, they do not suffer the usual penalties to hit rolls for Assault weapons. 
+・INFANTRY units with this doctrine may double the number of attacks they make with Rapid Fire weapons at a range of up to 18&quot;, rather than half the weapon’s range as normal.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f5ec-ad56-1281-fffd" name="Harakon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2936-fc9d-8ef9-c715" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4e6a-78e3-f251-f84b" name="Harakon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine have a 4+ save value.
+・When a VEHICLE with this doctrine loses a wound, on a 6+ that wound is not lost.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="269b-3bc4-459e-6e58" name="Cascadia" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b32-c639-7084-d01e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4da1-c461-edd4-f210" name="Cascadia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine ignore vertical distance when they move. 
+・INFANTRY units with this doctrine always count as being in a light cover even if they are not..</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="541f-b6a6-1d39-ae0d" name="D-99" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d7-3f7c-d054-a08a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ab81-56d8-44e2-ddec" name="D-99" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・Units with this doctrine must take the Geno-surgical enhancement equipment. 
+・INFANTRY units with this doctrine never suffer any negative modifier to their leadership characteristic. 
+・Unit with this doctrine gain the faction key word INQUISITION and ORDO XENOS.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cf22-ea49-80e2-56d8" name="Hell Harlot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c341-6a12-a132-888e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ccf1-6553-c2f5-03fe" name="Hell Harlot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・Units with this doctrine always wound non VEHICLE on 4+ or better with a close combat weapon. 
+・When resolving an attack made in melee, an unmodified wound roll of 6 is resolved with a bonus of -1AP.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5299-6c2c-10f1-51bc" name="Arnheim Pathfinders" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b2-0aa6-5c00-6718" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6461-c867-cdf3-5056" name="Arnheim Pathfinders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine halve the number of models that flee, rounding up, if they fail a Morale test.
+・VEHICLE with this doctrine has a damage table double the number of Wounds they have remaining for the purposes of determining what their characteristics are.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1777-bbe7-ac60-c2f9" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="869d-8df7-5b06-cf5b" name="Drop Trooper Ranged weapons" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="668c-5ee5-8d79-377c" name="Drop Trooper Special weapons" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="048a-62d9-b4be-1320" name="Drop Trooper Special weapons BS3" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="c223-3fe3-a8dd-c7f8" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
+</catalogue>
