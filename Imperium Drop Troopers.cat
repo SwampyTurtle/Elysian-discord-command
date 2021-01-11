@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="10" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Discord" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="172" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="14" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="174" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="1a1f-3413-bb7e-5f74" name="Drop Company Commander" hidden="false"/>
     <categoryEntry id="abdd-e244-78f8-a500" name="Captain Jonus Remaus" hidden="false"/>
@@ -59,62 +59,6 @@
     <categoryEntry id="0477-dd67-92dc-cfbd" name="Marauder Destroyer" hidden="false"/>
     <categoryEntry id="98af-ea13-5069-b7e4" name="Tarantula Battery" hidden="false"/>
   </categoryEntries>
-  <selectionEntries>
-    <selectionEntry id="0d9a-bd65-cbde-3a6a" name="Drop Trooper Squad" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3cd0-7b7a-4fc7-27b2" name="Pathfinder Squad" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c620-7de1-3c7b-7f65" name="Recon Bike Squad" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d15d-afef-f331-8a96" name="Storm Trooper Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3b53-f24f-c4e5-8aff" name="Tauros Assault Vehicle" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e212-1415-217a-f049" name="Tauros Medicae" hidden="false" collective="false" import="true" type="model">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="17c9-97a5-f67e-3456" name="Tauros Venator" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="98fd-188b-11cd-516d" name="Drop Sentinel" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <entryLinks>
     <entryLink id="15e3-3696-b3b0-55da" name="Avenger Strike Fighter" hidden="false" collective="false" import="true" targetId="047d-20b5-1f5d-a706" type="selectionEntry">
       <categoryLinks>
@@ -161,12 +105,31 @@
         <categoryLink id="ea1f-1b70-5890-b7c3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="0b71-824a-2230-66c1" name="Drop Lord Commissar" hidden="false" collective="false" import="true" targetId="ea6f-2b38-24b7-40d1" type="selectionEntry"/>
+    <entryLink id="670f-151f-e384-6ee7" name="Storm Company Commander" hidden="false" collective="false" import="true" targetId="55fc-f001-3686-9297" type="selectionEntry"/>
+    <entryLink id="06df-7fa2-3d05-a760" name="Relics" hidden="false" collective="false" import="true" targetId="df49-e0e6-e507-04ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1d69-323d-af03-f247" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3d73-0a76-397b-f858" name="Major Markus Duras" hidden="false" collective="false" import="true" targetId="7033-9790-5044-a61b" type="selectionEntry"/>
+    <entryLink id="34ad-a292-9304-aa5f" name="D-99 &apos;Decimator&apos; Squad" hidden="false" collective="false" import="true" targetId="8e0d-5b06-3ebc-b6c7" type="selectionEntry"/>
+    <entryLink id="9bfc-dc74-d699-338c" name="Cyclops Demolition Vehicle" hidden="false" collective="false" import="true" targetId="0dd2-a119-636b-39a6" type="selectionEntry"/>
+    <entryLink id="268d-55f9-c800-c9aa" name="D-99 &apos;Executioner&apos; Squad" hidden="false" collective="false" import="true" targetId="f3a7-071e-3410-0426" type="selectionEntry"/>
+    <entryLink id="6609-68ea-c244-aa63" name="D-99 &apos;Extermination&apos; Squad" hidden="false" collective="false" import="true" targetId="7af7-bc72-c6ab-0b48" type="selectionEntry"/>
+    <entryLink id="8769-546b-0694-ef6f" name="D-99 Veteran Squad" hidden="false" collective="false" import="true" targetId="f762-fbba-063b-327f" type="selectionEntry"/>
+    <entryLink id="46fe-fdba-c423-07ec" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" targetId="9fbd-d1a5-e6c0-a21e" type="selectionEntry"/>
+    <entryLink id="7226-08c1-f78c-c5a5" name="Storm Trooper Squad" hidden="false" collective="false" import="true" targetId="252e-0afa-2f22-0f20" type="selectionEntry"/>
+    <entryLink id="39cf-0bd2-3036-1f0c" name="Pathfinder Squad/Forward Recon Squad?" hidden="false" collective="false" import="true" targetId="b63d-f7f2-dbc4-cb41" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0f7b-b898-65d1-c613" name="Captain Jonus Remaus " hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735b-994a-8337-372b" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="d5b9-93f5-df5b-a3f4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="55.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -209,6 +172,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de5-1b6f-49a8-fa1b" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="3308-cc7c-6581-474f" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -219,6 +185,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb02-b632-b56f-2614" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="a676-8eeb-9167-8384" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -229,6 +198,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb6-2b42-a097-3fae" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="e2e1-e70d-184c-df1f" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -239,6 +211,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cfb-3c83-5cbc-2069" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="35a1-92a3-eb5d-17bb" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -249,6 +224,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c5-f449-f456-8a0a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="584a-50b5-fcfc-74e3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -275,6 +253,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ea6f-2b38-24b7-40d1" name="Drop Lord Commissar" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="79f1-895d-c1d6-755c" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -282,6 +263,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2440-4b60-7059-a694" name="Drop Company Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="ee40-228c-1013-4bf4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -293,6 +277,9 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac4f-c342-e5ae-9422" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1db8-0eb7-909e-ab7f" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="2c7a-4f55-2c20-fa82" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bb1d-ab4e-3e62-dad7" name="Drop Sentinel" hidden="false" collective="false" import="true" type="upgrade">
           <selectionEntries>
@@ -347,6 +334,9 @@
         <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda1-0a39-a9cb-4358" type="max"/>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a07e-0c00-432d-d755" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="a11c-bd81-eb79-33e3" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2fb-da95-ae92-7850" name="Drop Trooper" hidden="false" collective="false" import="true" type="model">
           <selectionEntries>
@@ -588,14 +578,17 @@
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b63d-f7f2-dbc4-cb41" name="Pathfinder Squad/forward recon squad?" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b63d-f7f2-dbc4-cb41" name="Pathfinder Squad/Forward Recon Squad?" hidden="false" collective="false" import="true" type="unit">
       <comment>Set squad size to match points</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ad2-2cb6-2766-03ab" type="max"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1367-b056-65a6-bb3d" type="max"/>
-      </constraints>
+      <categoryLinks>
+        <categoryLink id="cb0d-adf0-43a7-8397" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="31f2-f568-f2f7-516f" name="Pathfinder" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dd0-c064-4212-b793" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a27-c395-01ed-49d1" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="7ff6-558c-0bf5-9f48" name="Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -646,6 +639,10 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="ca91-3b57-d67a-ae7f" name="Pathfinder Sergeant" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aece-1911-6ccf-f46c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca75-f8c6-3061-0144" type="min"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="1c29-9de9-c090-b677" name="Wargear Options" hidden="false" collective="false" import="true">
               <selectionEntries>
@@ -847,10 +844,9 @@
     </selectionEntry>
     <selectionEntry id="0c41-c056-b6ed-d904" name="Recon Bike Squad" hidden="false" collective="false" import="true" type="unit">
       <comment>Set squad size</comment>
-      <constraints>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7902-3503-5e12-1d87" type="min"/>
-        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c0c-49f8-354c-781e" type="max"/>
-      </constraints>
+      <categoryLinks>
+        <categoryLink id="22cb-8804-14b0-c78a" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b95e-bdd0-1bb3-aadc" name="Recon Bike Trooper" hidden="false" collective="false" import="true" type="model">
           <selectionEntryGroups>
@@ -1160,13 +1156,16 @@
         <cost name="pts" typeId="points" value="56.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="252e-0afa-2f22-0f20" name="Storm Trooper Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78d8-ce81-b100-805b" type="max"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="025f-847d-76bb-037d" type="min"/>
-      </constraints>
+    <selectionEntry id="252e-0afa-2f22-0f20" name="Storm Trooper Squad" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e4b5-4f6c-06fc-c824" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7194-2b31-ea7e-5cf8" name="Stormtrooper" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7194-2b31-ea7e-5cf8" name="Stormtrooper" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5886-2f25-7162-a013" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e70-7243-dd32-4605" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="27de-2a18-ac2c-d114" name="Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1196,9 +1195,12 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2c8e-e258-1dfb-ea7d" name="Storm Trooper Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2c8e-e258-1dfb-ea7d" name="Storm Trooper Sergeant" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c370-0c4a-c25e-a276" type="max"/>
+          </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="f656-ed7a-97f2-cc39" name="Wargear Options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="f656-ed7a-97f2-cc39" name="Wargear Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="2599-46de-ba34-d793">
               <selectionEntries>
                 <selectionEntry id="7e88-bfaf-9339-6d3d" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1401,6 +1403,9 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ae-9b24-ba48-ea03" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b45a-196d-fe90-3df1" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="2c10-8310-c618-c62b" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="faa1-161c-2176-007e" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
@@ -1435,9 +1440,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e01d-d38e-54ac-2a86" name="Tauros Medicae" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ab-7c69-2ee6-04f6" type="max"/>
-      </constraints>
+      <categoryLinks>
+        <categoryLink id="89f7-0204-7f55-d07d" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5eb7-bc1e-4023-03e5" name="Hunter killer missile" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1461,6 +1466,9 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b875-203f-2a17-01fa" type="max"/>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb3-0885-f3e7-2d38" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="44a2-b25a-693e-bee9" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3239-82e0-8dd3-3232" name="Multilaser" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
@@ -1493,6 +1501,269 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="0dd2-a119-636b-39a6" name="Cyclops Demolition Vehicle" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1ee1-f5fa-2d4d-a35d" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0666-5845-1ff3-e111" name="Sentinel Powerlifter" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ff25-a7e3-d544-e93c" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="943f-f2b7-a9f3-9a36" name="Heavy Weapons Squad" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="00c6-e27f-bc24-e319" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="59eb-dc88-8da2-f03e" name="Support Sentinel" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4635-c27f-7cf4-231c" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8359-8905-3a63-2985" name="Tauros Maximus" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0037-0d36-ed63-4f69" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f219-3be9-c705-8494" name="Drop Weapon Platform" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3141-4d22-8262-db1c" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0841-00e7-9611-a6b5" name="Trojan Support Vehicle" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="a122-d733-e101-d762" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5231-0210-617d-44ca" name="Valkyrie Airborne Assault Carrier" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9def-8b9d-a22e-291b" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="1efc-806c-b6ff-ef0a" name="Valkyrie Sky Talon" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="afa0-581b-149f-e419" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e463-4fee-d432-8f61" name="Lightning Strike Fighter" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="a480-1d84-c6f1-75c1" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fbd-d1a5-e6c0-a21e" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="913f-20e9-b0c9-72c4" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1dc8-b01e-3882-e842" name="Vendetta Gunship" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="0391-8a77-a313-18c6" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b1-d357-b488-5bca" name="Vulture Gunship" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="3a77-5754-e30a-e445" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c99-1711-6072-7f59" name="Marauder Bomber" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="4066-aaa9-84ed-670e" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c429-c87c-f7d1-d5e3" name="Marauder Destroyer" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="fdf9-19bc-ff6a-8650" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d52a-12fa-5d13-e265" name="Tarantula Battery" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="0d18-fb23-d591-f52b" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7033-9790-5044-a61b" name="Major Markus Duras" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="500e-cd1b-061c-08e2" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f762-fbba-063b-327f" name="D-99 Veteran Squad" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4a7e-e009-ec2b-c202" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e0d-5b06-3ebc-b6c7" name="D-99 &apos;Decimator&apos; Squad" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="47bf-1744-df08-5c95" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3a7-071e-3410-0426" name="D-99 &apos;Executioner&apos; Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4b2c-d9c3-35d5-ce15" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7af7-bc72-c6ab-0b48" name="D-99 &apos;Extermination&apos; Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f39f-133a-1cde-48f7" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55fc-f001-3686-9297" name="Storm Company Commander" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="1623-83c9-5667-0e4e" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df49-e0e6-e507-04ea" name="Relics" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d520-65c8-eba8-47ba" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a2f1-9301-5493-cc6c" name="Phantine Reclaimers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9cd-5515-5277-1017" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0405-2fc3-2dbd-d75c" name="Phantine Reclaimers" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&apos;		</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2	</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3+3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="58be-6597-397b-f8a4" name="Phantine Reclaimers" hidden="false">
+              <description>Bishop Stearne was the most decorated ace that fought
+during the Sabbat worlds campaign. He is well known for
+having scored the highest number of kills he is considered a
+legend in the Phantine Air Corp. Long dead, his legacy still
+lives on in the form of the Phantine Reclaimers.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry id="800d-ec48-40cb-6520" name="Vanguard Drop Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5168-4e36-a7ae-ba4e" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="aec3-7614-feef-02e1" name="Arnheilmeir Longbow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b495-76f5-0bd4-98a9" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="0260-70ac-ce75-8fb8" name="Plates of Myroir" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c64-0c5c-5887-1a8d" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="a87d-bcad-71c0-1162" name="The Blade of Rosva" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e83-08b2-c871-6307" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="e3d1-2738-78da-f76f" name="The Stormcloud" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6f-50bd-e9eb-f132" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="ff06-85d1-05c9-9548" name="Distraction Chaff" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a08c-b8d3-b6a4-c59d" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="c123-7894-3a3b-5ede" name="Emperor&apos;s Justice" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3575-6299-13c3-26e2" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="3196-1dd5-1405-b537" name="Holy Relic" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce49-8e08-2e92-b56d" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="88a1-f185-349d-49b0" name="Internal Comms System" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd2e-a0b8-d88e-a147" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="367d-f9d9-c1fe-6180" name="Macharian Cross" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e1-43b0-a29e-0476" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="676d-1ba6-d1c1-7f25" name="Power Cutlass" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d195-d035-a0a7-dc4e" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="9f8e-2e22-883e-b1f1" name="Surveyor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2663-e984-6fcb-f2de" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
