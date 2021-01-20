@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="30" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="176" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="25" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="172" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cd8f-3e55-003e-b580" name="Codex: Drop Troopers"/>
   </publications>
@@ -98,274 +98,45 @@
         <categoryLink id="f268-11ff-3c26-216c" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9c4a-185e-b7f7-51ea" name="Regimental Doctrine" hidden="false" collective="false" import="true" targetId="99ec-85bb-2d2a-64da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="57d0-539e-2c03-ffcd" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="ee1b-4016-99e1-195a" name="Drop Company Commander" hidden="false" collective="false" import="true" targetId="2440-4b60-7059-a694" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ea1f-1b70-5890-b7c3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b71-824a-2230-66c1" name="Drop Lord Commissar" hidden="false" collective="false" import="true" targetId="ea6f-2b38-24b7-40d1" type="selectionEntry">
+    <entryLink id="0b71-824a-2230-66c1" name="Drop Lord Commissar" hidden="false" collective="false" import="true" targetId="ea6f-2b38-24b7-40d1" type="selectionEntry"/>
+    <entryLink id="670f-151f-e384-6ee7" name="Storm Company Commander" hidden="false" collective="false" import="true" targetId="55fc-f001-3686-9297" type="selectionEntry"/>
+    <entryLink id="06df-7fa2-3d05-a760" name="Relics" hidden="false" collective="false" import="true" targetId="df49-e0e6-e507-04ea" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2a21-6c37-1b6a-559c" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="1d69-323d-af03-f247" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="670f-151f-e384-6ee7" name="Storm Company Commander" hidden="false" collective="false" import="true" targetId="55fc-f001-3686-9297" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f38e-7a25-b391-7055" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3d73-0a76-397b-f858" name="Major Markus Duras" hidden="false" collective="false" import="true" targetId="7033-9790-5044-a61b" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5be9-f45f-ad40-8037" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="34ad-a292-9304-aa5f" name="D-99 &apos;Decimator&apos; Squad" hidden="false" collective="false" import="true" targetId="8e0d-5b06-3ebc-b6c7" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="8094-556b-4e0e-f2bf" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9bfc-dc74-d699-338c" name="Cyclops Demolition Vehicle" hidden="false" collective="false" import="true" targetId="0dd2-a119-636b-39a6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="a021-60dd-98d0-4c9f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="268d-55f9-c800-c9aa" name="D-99 &apos;Executioner&apos; Squad" hidden="false" collective="false" import="true" targetId="f3a7-071e-3410-0426" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1256-f938-666b-cbc0" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6609-68ea-c244-aa63" name="D-99 &apos;Extermination&apos; Squad" hidden="false" collective="false" import="true" targetId="7af7-bc72-c6ab-0b48" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7921-ff52-a393-b94c" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8769-546b-0694-ef6f" name="D-99 Veteran Squad" hidden="false" collective="false" import="true" targetId="f762-fbba-063b-327f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9201-18de-273d-c316" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="46fe-fdba-c423-07ec" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" targetId="9fbd-d1a5-e6c0-a21e" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5762-258f-6d41-5928" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7226-08c1-f78c-c5a5" name="Storm Trooper Squad" hidden="false" collective="false" import="true" targetId="252e-0afa-2f22-0f20" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="cd06-c2b9-8cb1-565c" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="39cf-0bd2-3036-1f0c" name="Forward Recon Squad" hidden="false" collective="false" import="true" targetId="b63d-f7f2-dbc4-cb41" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1c2a-2c4c-904a-6ab1" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4cec-20f9-c804-e342" name="Drop Trooper Squad" hidden="false" collective="false" import="true" targetId="2164-65f3-9725-babf" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0bb6-0a4b-4334-6a0c" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a024-b826-bcc5-9b10" name="Combat Engineer Squad" hidden="false" collective="false" import="true" targetId="016e-d84e-67d4-6b2a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="8d22-6d2e-5186-c568" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8061-b85c-5a5b-8a9c" name="Drop Command Squad" hidden="false" collective="false" import="true" targetId="1677-c64d-2b6e-08c6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="bf2f-932c-2f44-031c" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1c96-ab1c-1c94-d831" name="Recon Bike Squad" hidden="false" collective="false" import="true" targetId="0c41-c056-b6ed-d904" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="8fb0-73ba-9b2d-0fb2" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7784-2ab6-731c-fcaa" name="Tauros Venator" hidden="false" collective="false" import="true" targetId="9ec4-f826-944f-8cab" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="6842-4582-2f94-7fd1" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b66e-e207-8dea-db69" name="Tauros Assault Vehicle" hidden="false" collective="false" import="true" targetId="9b66-e51b-da4c-7360" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="dddb-5dae-be9f-d27d" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="aa01-2fe3-35f1-bbc9" name="Sentinel Powerlifter" hidden="false" collective="false" import="true" targetId="0666-5845-1ff3-e111" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="511a-f50a-df0e-8eb4" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="dbfe-66ca-01ec-b7e0" name="Valkyrie Airborne Assault Carrier" hidden="false" collective="false" import="true" targetId="5231-0210-617d-44ca" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="920e-0d36-3e51-5932" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3d5c-17b4-88f1-83f7" name="Drop Platoon Commander" hidden="false" collective="false" import="true" targetId="9e34-eb74-5ef8-56f9" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4b68-ac32-af08-dbe3" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4c08-b8c1-4b6a-4821" name="Storm Platoon Commander" hidden="false" collective="false" import="true" targetId="cc47-c152-91cd-b55d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="bfc7-0bf7-25c2-f675" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1c98-d262-b109-da7b" name="Ground Scanner Officer" hidden="false" collective="false" import="true" targetId="80a8-3533-992c-43bf" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="a352-ea6c-e83d-de8b" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="de98-0229-1169-1216" name="Recon Platoon Leader" hidden="false" collective="false" import="true" targetId="7156-5093-88f6-0346" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3dbf-1204-962e-19e9" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="89dd-82a8-8109-26c0" name="Sentinel Command Vehicle" hidden="false" collective="false" import="true" targetId="50b4-c60c-fd8b-6a97" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2bfb-661f-8fd9-d400" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="12bb-0290-bee0-fa12" name="Tauros Command Vehicle" hidden="false" collective="false" import="true" targetId="38ee-ea2e-4474-e295" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="06cb-1059-ca94-02c9" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9016-0cd8-f04c-8a5f" name="Tactical Air Controller" hidden="false" collective="false" import="true" targetId="ebf7-38e0-01ad-0464" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2e77-770f-9bf1-b944" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="34e5-ff31-e715-fab8" name="Storm Command Squad" hidden="false" collective="false" import="true" targetId="a2e7-f0df-fadc-5435" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d77e-6c4c-54d7-a561" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3d8e-d67d-ee6b-5601" name="Commissar" hidden="false" collective="false" import="true" targetId="b210-9a2b-b4e6-6b05" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e44c-ff7f-e7ff-2453" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ae9c-68ef-ca40-0fb5" name="Drop Veteran Squad" hidden="false" collective="false" import="true" targetId="acc1-43dc-d1ec-224d" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="91f5-ad37-8ee1-345e" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a27c-7175-2656-3a2c" name="Sniper Squad" hidden="false" collective="false" import="true" targetId="48c7-4cac-3640-65f8" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9995-b382-7c35-bcca" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8240-45af-e9af-9ac4" name="Special Weapons Squad" hidden="true" collective="false" import="true" targetId="65c2-911c-3740-4f50" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e73e-c02c-37ae-0dd1" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="fd80-6bf8-4fed-acce" name="Tech-Priest Enginseer" hidden="false" collective="false" import="true" targetId="2982-f78c-6a3d-3218" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c29f-aab1-2035-8709" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="cdcc-5ca5-72d5-8a4d" name="Servitor" hidden="false" collective="false" import="true" targetId="44aa-5909-7464-c580" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="310c-cd58-39d4-6e83" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="37b2-d1b7-11f7-d652" name="Ogryn Bodyguard" hidden="false" collective="false" import="true" targetId="99a7-02ce-a096-44d4" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d979-c082-acbe-3757" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3918-00c5-6b93-8dcd" name="Drop Ogryn Squad" hidden="false" collective="false" import="true" targetId="635d-79bf-df3a-89af" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5b99-b375-973e-4917" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4b21-ef58-c272-8ade" name="Drop Sentinel" hidden="false" collective="false" import="true" targetId="35e5-161a-b752-8cf4" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="2f20-39b9-8961-e469" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3604-1687-b8a7-fb0e" name="Tauros Medicae" hidden="false" collective="false" import="true" targetId="e01d-d38e-54ac-2a86" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f25d-6493-51e4-58ff" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0982-7db3-5fb3-7147" name="Heavy Weapons Squad" hidden="false" collective="false" import="true" targetId="943f-f2b7-a9f3-9a36" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9103-9fce-4e81-b82f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5158-1233-7752-dd6a" name="Support Sentinel" hidden="false" collective="false" import="true" targetId="59eb-dc88-8da2-f03e" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1020-06cb-108f-8868" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="23b1-ec8b-1ed1-7471" name="Drop Weapons Platform" hidden="false" collective="false" import="true" targetId="31a2-6b11-2445-f364" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3eb9-f4a1-f4e2-faed" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e885-d2f2-fa95-2b5f" name="Tauros Maximus" hidden="false" collective="false" import="true" targetId="8359-8905-3a63-2985" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="a717-1bea-1296-20fb" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1f41-7c22-ee53-7689" name="Trojan Support Vehicle" hidden="false" collective="false" import="true" targetId="0841-00e7-9611-a6b5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0547-860f-6ea5-804c" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="bdcf-48f1-ab29-3309" name="Valkyrie Sky Talon" hidden="false" collective="false" import="true" targetId="1efc-806c-b6ff-ef0a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f607-020f-517b-a8ff" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="993e-511c-062b-d65f" name="Lightning Strike Fighter" hidden="false" collective="false" import="true" targetId="e463-4fee-d432-8f61" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="4956-79f4-561f-f831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9ade-1a47-bb0a-ea97" name="Thunderbolt Fury Heavy Fighter" hidden="false" collective="false" import="true" targetId="6783-6c66-ec5f-8bf8" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="44e6-3077-947a-89b3" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8463-811f-26f5-8af1" name="Vendetta Gunship" hidden="false" collective="false" import="true" targetId="1dc8-b01e-3882-e842" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="57b2-088f-70ee-19c4" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="926e-3f75-02bb-36c5" name="Vulture Gunship" hidden="false" collective="false" import="true" targetId="a1b1-d357-b488-5bca" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="dbea-000e-5a49-3f6a" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7bcd-2387-dd99-b519" name="Marauder Bomber" hidden="false" collective="false" import="true" targetId="0c99-1711-6072-7f59" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f30e-a5cc-6405-a9c9" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8cf6-ea01-6d63-dcd3" name="Marauder Destroyer" hidden="false" collective="false" import="true" targetId="c429-c87c-f7d1-d5e3" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="3c4f-fe8b-71ef-c063" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="68a6-d44f-c4a8-a130" name="Tarantula Battery" hidden="false" collective="false" import="true" targetId="d52a-12fa-5d13-e265" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="76b5-cc81-1d92-9b90" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="3d73-0a76-397b-f858" name="Major Markus Duras" hidden="false" collective="false" import="true" targetId="7033-9790-5044-a61b" type="selectionEntry"/>
+    <entryLink id="34ad-a292-9304-aa5f" name="D-99 &apos;Decimator&apos; Squad" hidden="false" collective="false" import="true" targetId="8e0d-5b06-3ebc-b6c7" type="selectionEntry"/>
+    <entryLink id="9bfc-dc74-d699-338c" name="Cyclops Demolition Vehicle" hidden="false" collective="false" import="true" targetId="0dd2-a119-636b-39a6" type="selectionEntry"/>
+    <entryLink id="268d-55f9-c800-c9aa" name="D-99 &apos;Executioner&apos; Squad" hidden="false" collective="false" import="true" targetId="f3a7-071e-3410-0426" type="selectionEntry"/>
+    <entryLink id="6609-68ea-c244-aa63" name="D-99 &apos;Extermination&apos; Squad" hidden="false" collective="false" import="true" targetId="7af7-bc72-c6ab-0b48" type="selectionEntry"/>
+    <entryLink id="8769-546b-0694-ef6f" name="D-99 Veteran Squad" hidden="false" collective="false" import="true" targetId="f762-fbba-063b-327f" type="selectionEntry"/>
+    <entryLink id="46fe-fdba-c423-07ec" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" targetId="9fbd-d1a5-e6c0-a21e" type="selectionEntry"/>
+    <entryLink id="7226-08c1-f78c-c5a5" name="Storm Trooper Squad" hidden="false" collective="false" import="true" targetId="252e-0afa-2f22-0f20" type="selectionEntry"/>
+    <entryLink id="39cf-0bd2-3036-1f0c" name="Pathfinder Squad/Forward Recon Squad?" hidden="false" collective="false" import="true" targetId="b63d-f7f2-dbc4-cb41" type="selectionEntry"/>
+    <entryLink id="4cec-20f9-c804-e342" name="Drop Trooper Squad" hidden="false" collective="false" import="true" targetId="2164-65f3-9725-babf" type="selectionEntry"/>
+    <entryLink id="a024-b826-bcc5-9b10" name="Combat Engineer Squad" hidden="false" collective="false" import="true" targetId="016e-d84e-67d4-6b2a" type="selectionEntry"/>
+    <entryLink id="8061-b85c-5a5b-8a9c" name="Drop Command Squad" hidden="false" collective="false" import="true" targetId="1677-c64d-2b6e-08c6" type="selectionEntry"/>
+    <entryLink id="1c96-ab1c-1c94-d831" name="Recon Bike Squad" hidden="false" collective="false" import="true" targetId="0c41-c056-b6ed-d904" type="selectionEntry"/>
+    <entryLink id="7784-2ab6-731c-fcaa" name="Tauros Venator" hidden="false" collective="false" import="true" targetId="9ec4-f826-944f-8cab" type="selectionEntry"/>
+    <entryLink id="b66e-e207-8dea-db69" name="Tauros Assault Vehicle" hidden="false" collective="false" import="true" targetId="9b66-e51b-da4c-7360" type="selectionEntry"/>
+    <entryLink id="aa01-2fe3-35f1-bbc9" name="Sentinel Powerlifter" hidden="false" collective="false" import="true" targetId="0666-5845-1ff3-e111" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0f7b-b898-65d1-c613" name="Captain Jonus Remaus " hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735b-994a-8337-372b" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="4d52-9884-890e-63fb" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="d5b9-93f5-df5b-a3f4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -384,6 +155,29 @@
             <profile id="53d5-126e-1db3-a5b0" name="First Rank Fire Second Rank Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="15f0-7f6a-39d3-cbf9" name="Power Sword &quot;Liberus&quot;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d24-c2b0-24c5-6633" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d26-2afb-82ad-443f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="87f9-187e-9680-6aed" name="Power Sword &quot;Liberus&quot;" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
           </profiles>
@@ -433,53 +227,6 @@ phase. On a 4+, that model does not flee.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0734-7985-15e8-746c" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ead2-ddc8-3246-70f3">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142d-f0c0-66ec-3aa6" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="ead2-ddc8-3246-70f3" name="Power Sword &quot;Liberus&quot;" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0413-2c38-3ba7-cd52" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943e-0032-1656-1202" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="e543-b2b9-051f-ed41" name="Power Sword &quot;Liberus&quot;" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="a14d-7943-1fee-825d" name="Drop Trooper Ranged Weapons" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="c138-58bd-2bc5-c43a" name="Lasgun with auxiliary grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a68-7c18-9e45-66a1" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0523-e63c-1ec4-0d14" type="min"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="55.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -522,13 +269,6 @@ phase. On a 4+, that model does not flee.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de5-1b6f-49a8-fa1b" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="0a26-7c39-3b1c-d1d1" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="3308-cc7c-6581-474f" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -566,13 +306,6 @@ phase. On a 4+, that model does not flee.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb02-b632-b56f-2614" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="2d4e-20c3-06e8-5b2f" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="a676-8eeb-9167-8384" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -610,13 +343,6 @@ phase. On a 4+, that model does not flee.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb6-2b42-a097-3fae" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="cab7-60a0-da29-fe51" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="e2e1-e70d-184c-df1f" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -654,13 +380,6 @@ phase. On a 4+, that model does not flee.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cfb-3c83-5cbc-2069" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="e0ba-2b6f-4399-c45d" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="35a1-92a3-eb5d-17bb" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -698,13 +417,6 @@ phase. On a 4+, that model does not flee.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c5-f449-f456-8a0a" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="23ff-d265-c2c7-8433" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="584a-50b5-fcfc-74e3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -758,136 +470,9 @@ phase. On a 4+, that model does not flee.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea6f-2b38-24b7-40d1" name="Drop Lord Commissar" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="f2d8-e5dc-7605-72ad" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="79f1-895d-c1d6-755c" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="572e-200d-1c19-ec8c" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc6-8b68-65f7-b8b2" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="8289-10ea-30a4-7562" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a0c-e6b1-42fc-9196" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3620-964e-d300-9165" name="Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make one additional attack with this weapon.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fe94-ffde-87ba-a1d9" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac2-4d6a-7fd8-2ab0" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="99ef-a550-c0d3-293d" name="Power Fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, you must subtract 1 from the
-hit roll.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f560-8713-c458-3d52" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f93-d2be-0bfa-76f8" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e45f-b7dd-ec79-c159" name="Power Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e9ac-b6d4-6232-eafa" name="Power Axe" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d40-ed25-d2a3-cb46" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="1c31-13f6-679d-a27a" name="Power Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b9ce-e22c-e6c4-2aac" name="Power Maul" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0bd-5638-1561-329f" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="742f-f4b3-e9e2-7932" name="Power Maul" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -895,13 +480,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="2440-4b60-7059-a694" name="Drop Company Commander" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="d0cb-d4d7-4f97-5874" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="ee40-228c-1013-4bf4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -916,13 +494,6 @@ hit roll.</characteristic>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac4f-c342-e5ae-9422" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1db8-0eb7-909e-ab7f" type="min"/>
       </constraints>
-      <profiles>
-        <profile id="a1ee-3b6b-73b7-667b" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="2c7a-4f55-2c20-fa82" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -976,13 +547,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="2164-65f3-9725-babf" name="Drop Trooper Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="4e1d-7143-5e3d-0557" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="a11c-bd81-eb79-33e3" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -1237,13 +801,6 @@ hit roll.</characteristic>
     </selectionEntry>
     <selectionEntry id="b63d-f7f2-dbc4-cb41" name="Forward Recon Squad" hidden="false" collective="false" import="true" type="unit">
       <comment>Set squad size to match points</comment>
-      <profiles>
-        <profile id="afc3-d8af-ed67-1756" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="cb0d-adf0-43a7-8397" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -1832,13 +1389,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="252e-0afa-2f22-0f20" name="Storm Trooper Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="261d-03a6-b865-7407" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="e4b5-4f6c-06fc-c824" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -1869,23 +1419,6 @@ hit roll.</characteristic>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="1eed-1a7b-8dab-aa49" name="Demolition Charge" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97fb-664d-9a0c-7ec7" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="7e74-7003-ceb6-5a54" name="Demolition charge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -2099,13 +1632,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b66-e51b-da4c-7360" name="Tauros Assault Vehicle" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="e1dd-a0e6-4154-3402" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="2c10-8310-c618-c62b" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -2166,13 +1692,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="e01d-d38e-54ac-2a86" name="Tauros Medicae" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="6f29-1127-b138-8d17" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="89f7-0204-7f55-d07d" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
@@ -2195,13 +1714,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ec4-f826-944f-8cab" name="Tauros Venator" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="a072-625e-2770-1e12" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="44a2-b25a-693e-bee9" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -2262,13 +1774,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dd2-a119-636b-39a6" name="Cyclops Demolition Vehicle" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="ccc2-4974-d723-8a09" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="1ee1-f5fa-2d4d-a35d" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
@@ -2302,13 +1807,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="943f-f2b7-a9f3-9a36" name="Heavy Weapons Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="1ebe-72c8-ac55-be25" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="00c6-e27f-bc24-e319" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
@@ -2329,13 +1827,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="8359-8905-3a63-2985" name="Tauros Maximus" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="e418-aec5-95c7-ecff" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="cf9e-7cf0-cbed-72e7" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
       </categoryLinks>
@@ -2356,13 +1847,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="5231-0210-617d-44ca" name="Valkyrie Airborne Assault Carrier" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="c912-e308-0f1b-4d58" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="9def-8b9d-a22e-291b" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
       </categoryLinks>
@@ -2373,13 +1857,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="1efc-806c-b6ff-ef0a" name="Valkyrie Sky Talon" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="74bd-4aa6-dc3d-c326" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="afa0-581b-149f-e419" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="4a6f-9b2f-70f6-c074" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
@@ -2401,13 +1878,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="9fbd-d1a5-e6c0-a21e" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="e999-d6c9-6c2a-9cdc" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="913f-20e9-b0c9-72c4" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
       </categoryLinks>
@@ -2418,13 +1888,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dc8-b01e-3882-e842" name="Vendetta Gunship" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1ec2-8398-b56a-c7b3" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="0391-8a77-a313-18c6" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
       </categoryLinks>
@@ -2435,13 +1898,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1b1-d357-b488-5bca" name="Vulture Gunship" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="2a55-4bfc-4e56-acf8" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="3a77-5754-e30a-e445" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
       </categoryLinks>
@@ -2452,13 +1908,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c99-1711-6072-7f59" name="Marauder Bomber" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="280a-ce7f-1198-9b4e" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="4066-aaa9-84ed-670e" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
@@ -2469,13 +1918,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="c429-c87c-f7d1-d5e3" name="Marauder Destroyer" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="d9b6-27f5-ccd7-d9f4" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="fdf9-19bc-ff6a-8650" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
@@ -2486,13 +1928,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="d52a-12fa-5d13-e265" name="Tarantula Battery" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="84db-7b47-3f52-cd53" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="0d18-fb23-d591-f52b" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
@@ -2503,13 +1938,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="7033-9790-5044-a61b" name="Major Markus Duras" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="0587-7d41-a275-87ef" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="500e-cd1b-061c-08e2" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -2555,13 +1983,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e0d-5b06-3ebc-b6c7" name="D-99 &apos;Decimator&apos; Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="9f54-d707-c199-b96c" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="47bf-1744-df08-5c95" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -2585,13 +2006,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3a7-071e-3410-0426" name="D-99 &apos;Executioner&apos; Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="5beb-c7e7-9f64-fdcb" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="4b2c-d9c3-35d5-ce15" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -2615,13 +2029,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="7af7-bc72-c6ab-0b48" name="D-99 &apos;Extermination&apos; Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="9c88-337f-f933-96ec" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="f39f-133a-1cde-48f7" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -2645,13 +2052,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="55fc-f001-3686-9297" name="Storm Company Commander" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="b002-9235-8249-4016" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="1623-83c9-5667-0e4e" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -2680,190 +2080,6 @@ hit roll.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="1279-0178-e097-d214" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc88-97ef-9f9a-432c" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="180f-e46c-1ca1-8d46" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffc8-5300-2eb3-1aa1" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="6265-a2d6-9fac-4f40" name="Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make one additional attack with this weapon.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3cc4-b58c-8c1d-8d6c" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6833-236d-37d6-1c27" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="5c2a-90f5-9e8b-8a84" name="Power Fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, you must subtract 1 from the
-hit roll.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e3cd-c826-8365-92c0" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4306-a09c-e5ca-d778" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="4115-3ad7-6bb6-3d37" name="Power Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4c54-5b5a-7dad-abc5" name="Drop Trooper Ranged Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f6-8e21-5cc7-3d72" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0179-cd4a-0cf6-1a05" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="fa07-b8d2-709a-5f35" name="Lasgun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ccd-b679-f07f-e245" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0502-6536-0642-2afb" name="Boltgun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7eb-0b48-ee99-526a" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f78b-6467-ca44-a4d7" name="Lasgun with auxiliary grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-8908-3e4e-c99e" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bab1-17fc-ec6c-48cb" name="Hotshot Lasgun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076d-4cb2-58f3-f968" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="984f-d7f3-f754-88e9" name="Two Hotshot Laspistols" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b8-e5d5-648b-87ed" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="52c0-a8a3-2889-4a72" name="Hotshot Laspistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d17-cd2a-4595-411d" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a344-fb81-6041-8089" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed9-f525-1a29-ac5c" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="13a4-1f5c-2086-545e" name="Two bolt pistols" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f3-a98c-0197-9836" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7151-c81a-1036-ac32" name="Plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee6-a834-ab1a-3d47" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1ec8-8b00-5f8f-0194" name="Two plasma pistols" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407b-0e1f-3402-de51" type="max"/>
-              </constraints>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -3034,13 +2250,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e34-eb74-5ef8-56f9" name="Drop Platoon Commander" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="5ece-bb8c-5d16-9e85" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="eabe-5225-63e9-82bc" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -3051,13 +2260,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc47-c152-91cd-b55d" name="Storm Platoon Commander" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="0d43-0182-e92e-c1e6" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="f958-cd1a-e983-6206" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -3068,13 +2270,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="80a8-3533-992c-43bf" name="Ground Scanner Officer" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="4bd8-3802-897b-6f0f" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="eac4-290a-5428-4f2f" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -3095,13 +2290,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="50b4-c60c-fd8b-6a97" name="Sentinel Command Vehicle" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="677f-13d0-9957-a3fb" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry id="f5ff-a391-ccea-0ef9" name="Display Drop Orders" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3134,13 +2322,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="38ee-ea2e-4474-e295" name="Tauros Command Vehicle" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ee9b-c72c-3cd2-7232" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="373c-584d-b6ea-d6ce" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -3151,13 +2332,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="016e-d84e-67d4-6b2a" name="Combat Engineer Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="0abc-b772-7a94-5903" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="3774-3368-6593-f6c9" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -3191,14 +2365,7 @@ lives on in the form of the Phantine Reclaimers.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ebf7-38e0-01ad-0464" name="Tactical Air Controller" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="48dc-e0a6-e031-4942" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="ebf7-38e0-01ad-0464" name="Tacitical Air Controller" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="625d-5966-a831-5d40" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -3221,13 +2388,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="1677-c64d-2b6e-08c6" name="Drop Command Squad" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="ad12-f655-e080-6f9a" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="032f-e012-16e4-c0fb" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -3251,38 +2411,12 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2e7-f0df-fadc-5435" name="Storm Command Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="0807-c1a3-37bc-f80f" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry id="9789-3da3-f5f2-441e" name="Storm Command Veteran" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2799-5ea3-82a4-9d4c" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b458-0dc3-9447-6609" type="min"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="8a2e-2654-6152-6772" name="Heavy Flamer" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20dc-a155-1ecb-52d6" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c4f7-11eb-3a81-f7b3" name="Heavy flamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits it&apos;s target.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="8.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3297,13 +2431,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="b210-9a2b-b4e6-6b05" name="Commissar" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1ba7-e97f-10c9-6916" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="d73c-c306-f52c-f4a0" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -3314,13 +2441,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="acc1-43dc-d1ec-224d" name="Drop Veteran Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="2957-c58e-3e2b-6600" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry id="1766-5434-0802-e15d" name="Veteran Drop Trooper" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
@@ -3344,13 +2464,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="65c2-911c-3740-4f50" name="Special Weapons Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a132-65b3-2a18-4988" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry id="73ec-7adf-1b11-627f" name="Drop Trooper Specialist" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3371,9 +2484,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="2982-f78c-6a3d-3218" name="Tech-Priest Enginseer" hidden="false" collective="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink id="59bd-3cbe-2c98-9fcd" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="35.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3401,13 +2511,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="99a7-02ce-a096-44d4" name="Ogryn Bodyguard" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="f24e-d810-5e85-c2ef" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink id="4790-f685-b60f-6894" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -3418,13 +2521,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="635d-79bf-df3a-89af" name="Drop Ogryn Squad" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="7827-ac32-13c5-f120" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry id="5617-259d-46d4-3267" name="Drop Ogryn " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3594,14 +2690,7 @@ lives on in the form of the Phantine Reclaimers.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6783-6c66-ec5f-8bf8" name="Thunderbolt Fury Heavy Fighter" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="7db8-91fe-6320-af02" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="6783-6c66-ec5f-8bf8" name="Thunderbolt Fury" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="f6da-3fc1-fb9d-fb69" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
       </categoryLinks>
@@ -3612,13 +2701,6 @@ lives on in the form of the Phantine Reclaimers.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="31a2-6b11-2445-f364" name="Drop Weapons Platform" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e668-7cbf-eedd-8e59" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
         <selectionEntry id="9084-b7a6-1488-a98b" name="Drop Weapons Platform" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3636,29 +2718,6 @@ lives on in the form of the Phantine Reclaimers.</description>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="48c7-4cac-3640-65f8" name="Sniper Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <selectionEntries>
-        <selectionEntry id="a284-3279-f0fb-3891" name="Sniper Team" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f410-ff67-cf87-1cea" type="max"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0469-d4f0-b455-e58a" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="86a0-c8f3-f0ca-ce5a" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in a high-altitude transport, ready to deploy via grav-chute, instead of placing it on the battlefield. At the end of any of your Movement phases the unit can make an aerial drop – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="24.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -6002,730 +5061,6 @@ of that unit.</characteristic>
       <comment>Custom Drop Regiment</comment>
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a ranged weapon against an INFANTRY unit with this doctrine, it is treated as receiving the benefit of cover to its saving throws.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4a1e-cad6-38b0-1beb" name="12 transport capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
-      <characteristics>
-        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="35ae-d1cd-db35-6274" name="6 transport capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
-      <characteristics>
-        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">6</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8690-bbd1-b96f-fbfb" name="Captain Thanstadt" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4ec7-c11c-fea4-c8da" name="Captain Xhyst" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4fca-76d7-db91-00e4" name="Captain Gerek" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="efad-d34f-620e-7cc3" name="Colonel Johanna Van Meer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4641-7c6a-db3e-5419" name="Colonel Yris Akino" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5bbe-63e7-9bb3-d094" name="Captain Jonus Remaus" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3cf0-17ff-6c40-a2ed" name="Drop Lord Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="28c5-8985-e130-d426" name="Drop Company Comander" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="adc2-a25c-42a0-d4f7" name="Storm Company Commander" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="72ac-5ac3-f192-5c28" name="Drop Platoon Commander" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c175-f948-dcee-1c0c" name="Storm Platoon Commander" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e63e-7331-a197-2c9e" name="Ground Scanner Officer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7a29-10e6-3fbe-e414" name="Recon Platoon Leader" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b341-574c-efb8-9860" name="Sentinel Command Vehicle" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">9&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="840c-0235-0018-da6d" name="Tauros Command Vehicle" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6e81-89a2-d7e4-6ce9" name="Drop Trooper" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6bda-218c-30e2-dd9e" name="Drop Trooper Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ac9c-7e81-78ff-eede" name="Storm Trooper" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a69f-1ef3-80a7-011c" name="Storm Trooper Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6652-6a96-421f-6d5f" name="Combat Engineer Squad" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9d9e-9304-60b1-0215" name="Combat Engineer Squad Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2c22-fd36-1c88-6960" name="Tactical Air Controller" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4c67-61c4-a71e-4101" name="Veteran" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a11a-d08a-4a6a-a7e2" name="Veteran zheavy Weapons Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c422-eb95-0d59-21b9" name="Veteran Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c220-5031-200d-10a5" name="Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f1ab-4557-5c4a-9bfc" name="Sniper Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9986-f607-4d51-6c6c" name="Tech-Priest Enginseer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f8a1-fe68-9504-4fe4" name="Servitor" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3cff-4c70-dab3-3ace" name="Ogryn Bodyguard" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1015-acac-c473-fc88" name="Ogryn" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7841-3ac3-8f94-b956" name="Ogryn Bone &apos;ead" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fd20-573e-b767-e446" name="Forward Recon Trooper" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0bda-2fda-00aa-709f" name="Forward Recon Trooper Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d958-00ab-9e8a-0205" name="Drop Sentinel" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">9&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="870a-19b4-ca0a-55b2" name="Recon ATV" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3389-39da-800e-1af9" name="Recon Bike Trooper" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3f35-bc10-83b7-2f6d" name="Recon Bike Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="468c-61fa-b454-405b" name="Tauros Assault Vehicle" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="cbfc-a6fe-1e05-5120" name="Tauros Medicae" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ea49-9b27-6cce-89dc" name="Tauros Venator" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9b1c-65b1-f94e-04a9" name="Cyclops Demolition Vehicle" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9330-06ac-0ed7-6ebd" name="Sentinel Power Lifter" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">9&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a38b-7d22-3ac0-2fba" name="Heavy Weapons Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2cc4-8f17-fe4f-28cb" name="Support Sentinel" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">9&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fb88-7944-9636-d915" name="Drop Weapons Platform" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="dc0e-6179-4e30-f9c7" name="Tauros Maximus" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="198a-96e1-0379-33dd" name="Trojan Support Vehicle" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="bef8-3a84-af6e-00da" name="Trojan Support Vehicle 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6+</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d445-8f57-9b4e-c05a" name="Trojan Support Vehicle 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8df2-d778-e0cb-8b27" name="Trojan Support Vehicle 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ca32-aad6-2729-e2c2" name="Valkyrie Airborne Assault Carrier" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">7</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">14</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705"/>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9d71-2df8-d487-6fab" name="Valkyrie Airborne Assault Carrier 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20&quot;-45&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba"></characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b557-84d2-c47b-09e7" name="Valkyrie Airborne Assault Carrier 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20&quot;-35&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba"/>
-      </characteristics>
-    </profile>
-    <profile id="1d14-8944-baff-13dd" name="Valkyrie Airborne Assault Carrier 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20&quot;-25&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba"/>
-      </characteristics>
-    </profile>
-    <profile id="542e-ddc4-5ae1-20e6" name="Valkyrie Sky Talon" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-      <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">7</characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">14</characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9a81-4e71-23aa-2bdc" name="Valkyrie Sky Talon 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20&quot;-45&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba"/>
-      </characteristics>
-    </profile>
-    <profile id="fcef-6c7b-8ab8-9027" name="Valkyrie Sky Talon 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-      <characteristics>
-        <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
-        <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20&quot;-35&quot;</characteristic>
-        <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-        <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba"/>
       </characteristics>
     </profile>
   </sharedProfiles>
