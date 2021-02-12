@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="30" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="176" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="30" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cd8f-3e55-003e-b580" name="Codex: Drop Troopers"/>
   </publications>
@@ -351,6 +351,11 @@
     <entryLink id="68a6-d44f-c4a8-a130" name="Tarantula Battery" hidden="false" collective="false" import="true" targetId="d52a-12fa-5d13-e265" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="76b5-cc81-1d92-9b90" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="69b9-8cff-e408-9e87" name="Regimental Doctrine" hidden="false" collective="false" import="true" targetId="4955-60a2-3dcf-9dea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b0be-e511-1129-cf63" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -893,10 +898,6 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="35e5-161a-b752-8cf4" name="Drop Sentinel" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac4f-c342-e5ae-9422" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1db8-0eb7-909e-ab7f" type="min"/>
-      </constraints>
       <profiles>
         <profile id="a1ee-3b6b-73b7-667b" name="Aerial Drop" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -3893,7 +3894,6 @@ Relic. The bearer gets the Voice of Command ability. If the bearer already has t
     <selectionEntry id="3b86-5267-6b93-c758" name="Regiment: Elysia" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f175-642d-e0c5-bdac" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6785-e3d5-99bb-f922" type="min"/>
       </constraints>
       <profiles>
         <profile id="cdc2-19e1-36b7-2b9e" name="Regiment: Elysia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3903,11 +3903,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9de4-c8f2-2305-0366" name="Regiment: Phantine" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3742-afc4-3dfe-4411" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56f5-8b78-d819-7c02" type="min"/>
       </constraints>
       <profiles>
         <profile id="d7a0-069c-f655-b52d" name="Regiment: Phantine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3916,11 +3920,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0905-7253-2e7b-b94b" name="Regiment: Harakon" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ea-4360-e491-f500" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7198-b959-dc9e-bb71" type="min"/>
       </constraints>
       <profiles>
         <profile id="a826-2839-b4a8-15af" name="Regiment: Harakon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3929,11 +3937,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4071-9743-3612-9896" name="Regiment: Cascadia" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c72b-b0bb-06c4-1b16" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38c-5529-7778-8b30" type="min"/>
       </constraints>
       <profiles>
         <profile id="4e2d-5bb0-adc7-5f18" name="Regiment: Cascadia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3942,11 +3954,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6f99-2ad0-fdcb-4776" name="Regiment: Arnheim Pathfinders" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eae-5417-59ba-5da2" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3767-619e-f92c-13f2" type="min"/>
       </constraints>
       <profiles>
         <profile id="6c88-aaf4-d717-09da" name="Regiment: Arnheim Pathfinders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3955,11 +3971,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="25c0-c403-8b2b-5829" name="Regiment: Hell Harlot" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47f-ff2e-fbe1-d8f3" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0396-026c-4b48-5a1c" type="min"/>
       </constraints>
       <profiles>
         <profile id="4b91-2fca-5e64-55de" name="Regiment: Hell Harlot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3968,11 +3988,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6709-9ac4-37ca-8209" name="Custom Regiment: Agile Warriors (needs work as well as teh rest of custom regiments)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f270-17b6-a650-5140" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a0-270e-2a3d-f1a5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9895-49ca-00e9-2b5f" type="max"/>
       </constraints>
       <profiles>
         <profile id="e4f7-bdcc-6b2f-be41" name="Custom Regiment: Agile Warriors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3981,11 +4005,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b30-45e5-b846-d475" name="Custom Regiment: Close Combat Experts" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d7-55e4-3862-28c0" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a46-25d1-228c-2f0b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a2-918c-4818-793e" type="max"/>
       </constraints>
       <profiles>
         <profile id="99e0-6a22-5c28-d5fb" name="Custom Regiment: Close Combat Experts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3994,11 +4022,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7217-1abf-94eb-1b44" name="Custom Regiment: Counter Expert" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58d-85da-9c68-0cd5" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb48-8b23-843a-4fc8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad19-c8fe-9e37-7b8e" type="max"/>
       </constraints>
       <profiles>
         <profile id="b2c3-c5b9-c93b-b724" name="Custom Regiment: Counter Expert" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4007,11 +4039,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0409-f072-6739-897b" name="Custom Regiment: Disciplined Shooters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e6-c2fa-6a63-89c3" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8762-9d0c-619e-ed8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ba-ae7d-ac48-d3f8" type="max"/>
       </constraints>
       <profiles>
         <profile id="ccb6-69f0-723c-2553" name="Custom Regiment: Disciplined Shooters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4020,11 +4056,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c2aa-77cc-b933-c350" name="Custom Regiment: Heavy Infantry" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6096-6e1f-f5d3-2de3" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1079-e3c1-1681-f539" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebaa-28f7-34b9-c45f" type="max"/>
       </constraints>
       <profiles>
         <profile id="7930-38a1-6722-2bec" name="Custom Regiment: Heavy Infantry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4033,6 +4073,11 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8fa4-98d6-a38c-a064" name="Custom Regiment: High Energy Ammunition" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -4046,11 +4091,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8e00-86fc-87a1-3f49" name="Custom Regiment: Honor Paint" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e2-16b9-2524-7759" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d83-9adf-f20e-0240" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d83-9adf-f20e-0240" type="max"/>
       </constraints>
       <profiles>
         <profile id="1d4a-f719-3195-3933" name="Custom Regiment: Honor Paint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4059,11 +4108,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8337-7ce7-824e-434f" name="Custom Regiment: Hungry for Battle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a162-e5a0-b50d-4de2" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab84-8fee-f824-9915" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cca8-c958-0b8a-95e2" type="max"/>
       </constraints>
       <profiles>
         <profile id="81ff-78b4-0bef-8b0e" name="Custom Regiment: Hungry for Battle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4072,11 +4125,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dcf7-50ea-748e-558a" name="Custom Regiment: Jury-rigged Repairs" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d07f-5e19-33ab-f106" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b6c-8843-ad14-5524" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d07f-5e19-33ab-f106" type="max"/>
       </constraints>
       <profiles>
         <profile id="c417-403f-6f49-bc77" name="Custom Regiment: Jury-rigged Repairs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4085,11 +4142,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f09b-5325-bef6-4228" name="Custom Regiment: Lords&apos; Approval" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde4-7cba-df15-5eb5" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01be-b1d4-1821-5611" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01be-b1d4-1821-5611" type="max"/>
       </constraints>
       <profiles>
         <profile id="db45-e71f-c504-f197" name="Custom Regiment: Lords&apos; Approval" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4098,11 +4159,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4959-263d-0d03-4b03" name="Custom Regiment: Missile Storm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1417-558f-246f-a807" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f382-544a-bb95-9fbd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c757-4dfe-0570-14c6" type="max"/>
       </constraints>
       <profiles>
         <profile id="2dba-3ea0-c92f-f0c8" name="Custom Regiment: Missile Storm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4111,11 +4176,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1a1d-83be-cd38-8879" name="Custom Regiment: Mobile Infantry" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f17-428c-874e-7d13" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45de-5994-8236-e7a7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c1-9d50-863d-d622" type="max"/>
       </constraints>
       <profiles>
         <profile id="1d0c-13b3-b1cc-210c" name="Custom Regiment: Mobile Infantry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4124,11 +4193,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2823-1d26-3315-718a" name="Custom Regiment: Pyromaniacs" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9dc-d4e7-5c27-903d" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e2-63a3-1cfd-ae06" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ad-3ec0-051d-ae26" type="max"/>
       </constraints>
       <profiles>
         <profile id="eda1-ae1b-f7b0-4c81" name="Custom Regiment: Pyromaniacs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4137,11 +4210,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c33e-0a8c-dfdf-e439" name="Custom Regiment: Reinforced Armor" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70da-0a51-42d6-ba18" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28c-0043-8e2d-1bab" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba92-b972-7085-c4e1" type="max"/>
       </constraints>
       <profiles>
         <profile id="8d85-abf9-4df0-2fdd" name="Custom Regiment: Reinforced Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4150,11 +4227,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a0d1-77eb-8f3e-472d" name="Custom Regiment: Shield of Courage" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e71-8713-8e36-06bd" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df00-cc19-debb-5dad" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0936-7a25-0752-7f3f" type="max"/>
       </constraints>
       <profiles>
         <profile id="ffb1-1abe-94e7-1ff2" name="Custom Regiment: Shield of Courage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4163,12 +4244,13 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae85-821a-64ac-9da0" name="Custom Regiment: Slum Fighters" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c652-d615-05d2-15af" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aee-95ce-3b04-77cc" type="min"/>
-      </constraints>
       <profiles>
         <profile id="70ce-ee7e-d5ca-4e2a" name="Custom Regiment: Slum Fighters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -4176,11 +4258,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="31a8-745f-b6bb-a684" name="Custom Regiment: Spotter Details" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14d7-efc4-aea4-7540" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd34-d24f-f3df-c6a7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa8-2a3e-01f0-e422" type="max"/>
       </constraints>
       <profiles>
         <profile id="3a69-38ad-93d8-7517" name="Custom Regiment: Spotter Details" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4189,11 +4275,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c848-d7a7-752b-5ffb" name="Custom Regiment: White of their Eyes" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a752-88dc-87ea-e27e" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4b0-f33e-2100-aaaa" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2daf-b9ee-1314-7a76" type="max"/>
       </constraints>
       <profiles>
         <profile id="5996-bf36-0019-f5f8" name="Custom Regiment: White of their Eyes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4202,11 +4292,15 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="20fe-0469-86dd-8804" name="Custom Regiment: Wilderness Survivors" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2251-ea15-6915-969b" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef44-7083-e1ae-14c3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2251-ea15-6915-969b" type="max"/>
       </constraints>
       <profiles>
         <profile id="1e12-d501-dcb0-b04a" name="Custom Regiment: Wilderness Survivors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4215,145 +4309,48 @@ to hit rolls for Assault weapons. INFANTRY units with this doctrine may double t
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4955-60a2-3dcf-9dea" name="Regimental Doctrine" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="8362-f3f3-9586-69ea" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd45-0472-db8b-50a7" name="Regiments of Renown" hidden="false" collective="false" import="true" defaultSelectionEntryId="bde0-b522-bfa1-2d90">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8329-a2ce-b462-f803" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c2ad-b49e-08cb-fdf3" name="Regiment: Arnheim Pathfinders" hidden="false" collective="false" import="true" targetId="6f99-2ad0-fdcb-4776" type="selectionEntry"/>
+            <entryLink id="b15c-5d4d-9b2e-b2cc" name="Regiment: Cascadia" hidden="false" collective="false" import="true" targetId="4071-9743-3612-9896" type="selectionEntry"/>
+            <entryLink id="f041-bca4-20ac-f5de" name="Regiment: Phantine" hidden="false" collective="false" import="true" targetId="9de4-c8f2-2305-0366" type="selectionEntry"/>
+            <entryLink id="bde0-b522-bfa1-2d90" name="Regiment: Elysia" hidden="false" collective="false" import="true" targetId="3b86-5267-6b93-c758" type="selectionEntry"/>
+            <entryLink id="6ce2-b666-f5ab-14cf" name="Regiment: Harakon" hidden="false" collective="false" import="true" targetId="0905-7253-2e7b-b94b" type="selectionEntry"/>
+            <entryLink id="6a08-e51f-e19c-10b8" name="Regiment: Hell Harlot" hidden="false" collective="false" import="true" targetId="25c0-c403-8b2b-5829" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="97ea-efed-6d39-f587" name="Custom Regiments " hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0603-ff6c-5374-f28c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0919-ab8a-a4d4-8913" name="Custom Regiment: Agile Warriors (needs work as well as teh rest of custom regiments)" hidden="false" collective="false" import="true" targetId="6709-9ac4-37ca-8209" type="selectionEntry"/>
+            <entryLink id="8142-917f-981f-2365" name="Close Combat Experts" hidden="false" collective="false" import="true" targetId="5b30-45e5-b846-d475" type="selectionEntry"/>
+            <entryLink id="d793-56b2-d086-b077" name="Counter Expert" hidden="false" collective="false" import="true" targetId="7217-1abf-94eb-1b44" type="selectionEntry"/>
+            <entryLink id="78b2-dbc6-cb0e-b732" name="Custom Regiment: Hungry for Battle" hidden="false" collective="false" import="true" targetId="8337-7ce7-824e-434f" type="selectionEntry"/>
+            <entryLink id="858c-bae7-c0f3-f8cd" name="Custom Regiment: Honor Paint" hidden="false" collective="false" import="true" targetId="8e00-86fc-87a1-3f49" type="selectionEntry"/>
+            <entryLink id="664a-4478-75cb-1ddc" name="Custom Regiment: Heavy Infantry" hidden="false" collective="false" import="true" targetId="c2aa-77cc-b933-c350" type="selectionEntry"/>
+            <entryLink id="6565-4f16-3703-ddaf" name="Custom Regiment: Disciplined Shooters" hidden="false" collective="false" import="true" targetId="0409-f072-6739-897b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="ede4-c554-bba9-362f" name="Regimental Doctrines" hidden="false" collective="false" import="true" defaultSelectionEntryId="af82-f212-4dd3-3a4d">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f7-98e4-3e5d-5ff2" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dc1-9783-aed5-3bee" type="min"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="d13e-8431-bd07-72c3" name="Phantine Skyborne" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d26-f23d-4aaa-6e51" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="70f1-74e1-d08a-3341" name="Phantine Skyborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・A &lt;PHANTINE&gt; AIRCRAFT that targets the same enemy unit as a &lt;PHANTINE&gt; INFANTRY unit during the Shooting phase may re-roll hit rolls of 1.
-・A &lt;PHANTINE&gt; AIRCRAFT with this doctrine has a damage table double the number of Wounds they have remaining for the purposes of determining what their characteristics are.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="af82-f212-4dd3-3a4d" name="Elysia" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c6c-e361-43b7-7b40" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="73b9-5d7c-5ef8-88f4" name="Elysia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine can Advance and still shoot any weapon type (except Heavy weapons). When they do so, they do not suffer the usual penalties to hit rolls for Assault weapons. 
-・INFANTRY units with this doctrine may double the number of attacks they make with Rapid Fire weapons at a range of up to 18&quot;, rather than half the weapon’s range as normal.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f5ec-ad56-1281-fffd" name="Harakon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2936-fc9d-8ef9-c715" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4e6a-78e3-f251-f84b" name="Harakon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine have a 4+ save value.
-・When a VEHICLE with this doctrine loses a wound, on a 6+ that wound is not lost.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="269b-3bc4-459e-6e58" name="Cascadia" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b32-c639-7084-d01e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4da1-c461-edd4-f210" name="Cascadia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine ignore vertical distance when they move. 
-・INFANTRY units with this doctrine always count as being in a light cover even if they are not..</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="541f-b6a6-1d39-ae0d" name="D-99" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d7-3f7c-d054-a08a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ab81-56d8-44e2-ddec" name="D-99" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・Units with this doctrine must take the Geno-surgical enhancement equipment. 
-・INFANTRY units with this doctrine never suffer any negative modifier to their leadership characteristic. 
-・Unit with this doctrine gain the faction key word INQUISITION and ORDO XENOS.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cf22-ea49-80e2-56d8" name="Hell Harlot" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c341-6a12-a132-888e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ccf1-6553-c2f5-03fe" name="Hell Harlot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・Units with this doctrine always wound non VEHICLE on 4+ or better with a close combat weapon. 
-・When resolving an attack made in melee, an unmodified wound roll of 6 is resolved with a bonus of -1AP.
-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5299-6c2c-10f1-51bc" name="Arnheim Pathfinders" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b2-0aa6-5c00-6718" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6461-c867-cdf3-5056" name="Arnheim Pathfinders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">・INFANTRY units with this doctrine halve the number of models that flee, rounding up, if they fail a Morale test.
-・VEHICLE with this doctrine has a damage table double the number of Wounds they have remaining for the purposes of determining what their characteristics are.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
     <selectionEntryGroup id="c223-3fe3-a8dd-c7f8" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="dcd9-081b-dbde-a2d4" name="Drop Trooper Heavy Weapons" hidden="false" collective="false" import="true">
       <constraints>
