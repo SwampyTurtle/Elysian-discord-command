@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="31" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="33" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cd8f-3e55-003e-b580" name="Codex: Drop Troopers"/>
   </publications>
@@ -372,6 +372,11 @@
     </entryLink>
     <entryLink id="203a-47bc-9ff1-85da" name="Marauder Destroyer" hidden="false" collective="false" import="true" targetId="96fa-44e1-2d28-7b79" type="selectionEntry"/>
     <entryLink id="6d68-8b09-a28a-391d" name="Valkyrie Sky Talon" hidden="false" collective="false" import="true" targetId="a603-5538-1fc8-065c" type="selectionEntry"/>
+    <entryLink id="aee9-fa53-5b5e-b3fe" name="Regimental Doctrine" hidden="false" collective="false" import="true" targetId="99ec-85bb-2d2a-64da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d933-aa2c-a69b-5736" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0f7b-b898-65d1-c613" name="Captain Jonus Remaus " hidden="false" collective="false" import="true" type="model">
