@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="31" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77d7-28cc-6700-0b8c" name="Imperium: Drop Troopers" revision="33" battleScribeVersion="2.03" authorName="SwampyTurtle, Wizard" authorContact="Elysian discord: https://discord.gg/47u9YjKxYN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cd8f-3e55-003e-b580" name="Codex: Drop Troopers"/>
   </publications>
@@ -370,8 +370,11 @@
         <categoryLink id="76b5-cc81-1d92-9b90" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="203a-47bc-9ff1-85da" name="Marauder Destroyer" hidden="false" collective="false" import="true" targetId="96fa-44e1-2d28-7b79" type="selectionEntry"/>
-    <entryLink id="6d68-8b09-a28a-391d" name="Valkyrie Sky Talon" hidden="false" collective="false" import="true" targetId="a603-5538-1fc8-065c" type="selectionEntry"/>
+    <entryLink id="3491-7dda-aed1-6c73" name="Regimental Doctrine" hidden="false" collective="false" import="true" targetId="99ec-85bb-2d2a-64da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b1e2-4cf0-2252-ef8c" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0f7b-b898-65d1-c613" name="Captain Jonus Remaus " hidden="false" collective="false" import="true" type="model">
@@ -397,9 +400,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d5b9-93f5-df5b-a3f4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-        <categoryLink id="c31f-8b88-dcc7-153f" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="aab2-09a6-83cc-c0d9" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="6870-640e-de21-b25d" name="Captain Jonus Remaus" hidden="false" targetId="abdd-e244-78f8-a500" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6773-9eb1-94a5-bc79" name="Warlord Trait" hidden="false" collective="false" import="true" type="upgrade">
@@ -441,78 +441,91 @@ phase. On a 4+, that model does not flee.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c9da-6b6b-7711-16f7" name="Lasgun with auxiliary grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="450a-f308-6e3e-6f5c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7833-c42c-1862-cfb3" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="2fef-efdc-121e-a8b2" name="Lasgun and auxiliary grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid fire 1</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A model with an auxiliary grenade launcher increases the range
-of any frag grenades and krak grenades they use to 24”</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7150-3fbd-b6ed-be97" name="Melta bomb" hidden="false" collective="false" import="true" type="upgrade">
-          <comment>ADD POINTS</comment>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2490-9775-9fc3-52e2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa9-7c02-931d-afbe" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="9d90-940f-20ad-97bb" name="Melta bomb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">4&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="09ae-c41f-0347-de97" name="Power Sword &quot;Liberus&quot;" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3244-3265-61f5-de9f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f74-3858-820a-917a" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="c1fa-c051-3607-34c0" name="Power Sword &quot;Liberus&quot;" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0734-7985-15e8-746c" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ead2-ddc8-3246-70f3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142d-f0c0-66ec-3aa6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ead2-ddc8-3246-70f3" name="Power Sword &quot;Liberus&quot;" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0413-2c38-3ba7-cd52" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943e-0032-1656-1202" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="e543-b2b9-051f-ed41" name="Power Sword &quot;Liberus&quot;" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a14d-7943-1fee-825d" name="Drop Trooper Ranged Weapons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c138-58bd-2bc5-c43a" name="Lasgun with auxiliary grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a68-7c18-9e45-66a1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0523-e63c-1ec4-0d14" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="5924-3bdc-54bc-4dfc" name="Lasgun and auxiliary grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid fire 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A model with an auxiliary grenade launcher increases the range
+of any frag grenades and krak grenades they use to 24”</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="048b-a6c6-e88b-d530" name="Melta bomb" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>ADD POINTS</comment>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af3f-57e0-6289-dbcc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7abd-9639-78e8-6d89" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="d565-71ee-b20f-77bf" name="Melta bomb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">4&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ad92-6a58-5489-fc57" name="Display Drop Orders" hidden="false" collective="false" import="true" targetId="dda1-b210-3c5b-7464" type="selectionEntry"/>
       </entryLinks>
@@ -3881,7 +3894,7 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="06b4-05dd-43e5-bd58" name="Storm Trooper W/ Special Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="06b4-05dd-43e5-bd58" name="Drop Trooper W/ Special Weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="569e-f927-896e-7928" value="4.0">
                   <conditions>
@@ -5341,6 +5354,7 @@ it explodes, and each unit with 6&apos;&apos; suffers D3 mortal wound.</characte
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9def-8b9d-a22e-291b" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
+        <categoryLink id="003e-fa73-3a56-3771" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="8c5e-bb17-f582-b5b6" name="Valkyrie Assault Carrier" hidden="false" targetId="69a8-d29d-af99-62cb" primary="false"/>
         <categoryLink id="0612-b8a7-7a2c-81d0" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
         <categoryLink id="c8e0-6dc3-90cd-eff3" name="Aircraft" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
@@ -8671,13 +8685,13 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
         <categoryLink id="5ebb-a4ef-1d6e-b7c5" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="efdb-c4d6-e48a-698a" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="efdb-c4d6-e48a-698a" name="laspistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="234c-e052-b263-a257" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35da-fab0-c5b0-6d0e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="acfe-315b-dc50-ddf5" name="Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="acfe-315b-dc50-ddf5" name="laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -10472,48 +10486,25 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="54f8-34dc-fa84-99df" name="Tactical Air Controller" hidden="false" targetId="2c22-fd36-1c88-6960" type="profile"/>
-        <infoLink id="c4f1-c14c-7cc4-6c0f" name="Air Raid Requested" hidden="false" targetId="a875-4b9f-3882-b281" type="profile"/>
-        <infoLink id="748e-1f91-a333-a3e7" name="Strafing Coordinates" hidden="false" targetId="cf72-c84d-26fd-fc6f" type="profile"/>
-        <infoLink id="773a-e769-d0ad-3878" name="Frag grenades" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
-        <infoLink id="f83b-7a58-2f7d-6176" name="Krak grenades" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="625d-5966-a831-5d40" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-        <categoryLink id="0d1d-c17d-056d-6ad2" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="d667-c3dd-503e-7f14" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="d1bb-c8c5-349c-6110" name="Tactical Air Controller" hidden="false" targetId="d7fd-223d-0f13-7c1d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fe67-5a50-2077-03d6" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed3b-b9f2-5a31-fa07" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc5-50fa-fd2b-bd80" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="1368-46d2-6c68-976e" name="Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-              </characteristics>
-            </profile>
-          </profiles>
+        <selectionEntry id="f82f-e5b4-5764-8210" name="Tactical Air Controller" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="9227-2a94-2df0-55a6" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+          </categoryLinks>
           <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1677-c64d-2b6e-08c6" name="Drop Command Squad" hidden="false" collective="false" import="true" type="model">
@@ -10600,412 +10591,12 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="6fc5-4fa3-38ad-3cab" name="Commissar" hidden="false" targetId="c220-5031-200d-10a5" type="profile"/>
-        <infoLink id="7ba3-3996-b5e3-3848" name="Aura of Discipline" hidden="false" targetId="683b-1ebf-4bf0-eca7" type="profile"/>
-        <infoLink id="22eb-76ed-53a5-6e1d" name="Summary Execution" hidden="false" targetId="eea2-199d-a4b0-3aef" type="profile"/>
-        <infoLink id="26e6-ef4f-14d6-2dc4" name="Iron Discipline" hidden="false" targetId="223a-b5f4-db13-5432" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="d73c-c306-f52c-f4a0" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-        <categoryLink id="2082-a78b-e76b-c1f4" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="10e1-4381-3b2b-bf0b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="03d2-4584-c698-bc60" name="Commissar" hidden="false" targetId="4e5f-3ab2-3cc2-0bf1" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4309-1c23-86a8-a2b3" name="Drop Trooper Ranged weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9d6-ec6f-7269-b9dc">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3553-2b88-42b6-6ca6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e6-7b0f-c866-db5d" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="e9d6-ec6f-7269-b9dc" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c82-7ebd-7542-33af" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3092-d0f7-ea5c-dee7" name="Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0cc6-3a1f-9da4-793d" name="Bolt gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a8-fb52-11a6-98e7" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="cf02-9b80-985b-9f7f" name="Bolt gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3f2f-6087-797f-a93e" name="Lasgun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b475-4095-68d8-d008" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="7b62-1f77-1788-c142" name="Lasgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid fire 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="be6e-e791-5956-7310" name="Lasgun and auxiliary grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ea8-249a-2296-59c1" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="8f69-7040-da72-3d48" name="Lasgun and auxiliary grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid fire 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A model with an auxiliary grenade launcher increases the range
-of any frag grenades and krak grenades they use to 24”</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ed8d-ddc0-011b-2055" name="laspistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac9-e2ab-aed9-3c30" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="9de8-2756-c188-14ee" name="laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="542e-7ace-c721-0e52" name="Plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddbb-8ae8-863a-aa14" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="127f-4b51-f6ec-f123" name="Plasma pistol, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-                <profile id="fda4-5cf6-27da-3ac1" name="Plasma pistol, supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f615-a358-d9e0-1276" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad4-4646-123c-f0da" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="24b8-05e4-d42a-9fb1" name="Shotgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range, add 1 to this weapon&apos;s Strength</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dbe7-4b45-0924-c79a" name="Hotshot Laspistol" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9956-2b44-1788-613a" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3321-7239-1380-ad8d" name="Hotshot laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5891-37a0-fb09-4cc8" name="Hotshot Lasgun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fd5-bf38-44f1-e9da" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="16a9-0b97-c10b-5d95" name="Hotshot Lasgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid fire 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="180a-5b38-7ecb-d100" name="Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e4d-567b-1c30-2d93" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="9aa0-61ad-8ad8-854b" name="Sniper Rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir! rule. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d353-dba4-6131-3f2b" name="Two plasma pistols" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6984-fe80-2379-f79c" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="df7a-2ee5-58e9-a31f" name="Plasma pistol, supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="52b6-3c54-9604-9d4e" name="Plasma pistol, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f29f-0620-12f1-aa96" name="Two Hotshot Laspistols" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be36-216e-ad7e-584e" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="030e-2074-eea1-a17d" name="Hotshot laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ae19-7fb0-7cf8-dec1" name="Two bolt pistols" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25da-ad9d-4d5e-21a9" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="7d53-2a76-7242-87b4" name="Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6a6f-126a-067c-6b72" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fa-1b4a-d2b8-c2bd" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9fb3-e168-c226-54bd" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f22-6cc3-6550-a896" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="0c79-e12a-d603-cb9d" name="Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make one additional attack with this weapon.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c577-f8fb-963f-0304" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f01a-03c7-1ba5-9e03" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e944-d777-d1d0-e29b" name="Power Fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, you must subtract 1 from the
-hit roll.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9370-4582-7ddd-3430" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c199-ec66-2d47-593c" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="cd8e-82a0-a78f-2fd4" name="Power Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11067,91 +10658,12 @@ hit roll.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="2982-f78c-6a3d-3218" name="Tech-Priest Enginseer" hidden="false" collective="false" import="true" type="model">
-      <infoLinks>
-        <infoLink id="eb8c-c9aa-3896-bb92" name="Tech-Priest Enginseer" hidden="false" targetId="9986-f607-4d51-6c6c" type="profile"/>
-        <infoLink id="d238-3c69-89d6-3fe2" name="Master of Machines" hidden="false" targetId="64eb-bcef-8246-5ae4" type="profile"/>
-        <infoLink id="e0cd-b842-f563-6e34" name="Bionics" hidden="false" targetId="e0ca-bd81-9e04-8b6a" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="59bd-3cbe-2c98-9fcd" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-        <categoryLink id="d65f-b888-c45b-b17b" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="0fbd-341f-3d78-bc7b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="6c77-3f01-3fda-c451" name="Tech-Priest Enginseer" hidden="false" targetId="0e1b-bfaa-7b93-8fa7" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="87cd-2fd2-08df-1fbf" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0587-5854-1e56-8886" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9308-939b-b328-08f5" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="083f-c750-375e-6055" name="Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d6b7-0bdf-301e-cbab" name="Servo arm" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1335-6c87-03a7-f670" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603e-1f75-5e22-398e" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="104d-1975-a310-da1a" name="Servo arm" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each servo-arm can only be used to make one attack each time this model fights. Then if a model attacks with this weapons, you must subtract 1 from the hit roll.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f36e-5d51-32b4-4704" name="Omnissian Axe" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c5-6b31-2f0f-2622" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d5-eb89-ae2e-feee" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="1b4e-5992-4d6e-9800" name="Omnissian Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="35.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12071,6 +11583,7 @@ discard the lowest result.</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="39bd-b2ad-7987-449f" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
+        <categoryLink id="d358-a1d9-eed1-01a2" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="cbff-ba0e-84d8-5158" name="Aircraft" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
         <categoryLink id="1342-3061-83fb-3b8b" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
         <categoryLink id="b819-3e1b-5521-c816" name="Valkyrie Sky Talon" hidden="false" targetId="4f82-fc92-f76f-ee6a" primary="false"/>
@@ -12159,7 +11672,6 @@ discard the lowest result.</characteristic>
         <selectionEntryGroup id="a0d0-2f50-a12d-7622" name="Missile Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="b7af-fd50-a3b7-19b7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b7-570c-1876-647e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c45-3c4a-82d3-1e83" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="d660-44e9-2fa3-ca8a" name="2x Multiple rocket pod" hidden="false" collective="false" import="true" type="upgrade">
