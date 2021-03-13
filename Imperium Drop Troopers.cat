@@ -453,9 +453,9 @@ phase. On a 4+, that model does not flee.</description>
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
                   </characteristics>
                 </profile>
@@ -3428,7 +3428,7 @@ hit roll.</characteristic>
             <infoLink id="3fc4-22f4-f816-66ec" name="Storm Trooper Sergeant" hidden="false" targetId="a69f-1ef3-80a7-011c" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="329c-1f28-b3f9-43f8" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="329c-1f28-b3f9-43f8" name="Drop Trooper Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e07-3d8d-cdb2-caec">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c30-557e-64c9-af8d" type="max"/>
               </constraints>
@@ -3502,7 +3502,7 @@ hit roll.</characteristic>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3857-1df4-2552-7a0a" name="Drop Trooper Ranged weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="3857-1df4-2552-7a0a" name="Drop Trooper Ranged weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="b88f-0209-7d02-76e4">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b45-5404-7f3a-1751" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a12a-b619-493e-4d85" type="min"/>
@@ -3826,7 +3826,7 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="982f-df7a-b415-0b56" name="Storm Troopers" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="982f-df7a-b415-0b56" name="Storm Troopers" hidden="false" collective="false" import="true" defaultSelectionEntryId="1500-1954-9dcc-94e4">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66e7-267b-550b-ce6a" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f4c-0aac-dd8b-a76e" type="max"/>
@@ -3878,6 +3878,9 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8f3-3d08-d331-7dcd" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ffc-2e95-d4ad-96f0" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -4858,6 +4861,11 @@ it explodes, and each unit with 6&apos;&apos; suffers D3 mortal wound.</characte
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -5030,12 +5038,14 @@ it explodes, and each unit with 6&apos;&apos; suffers D3 mortal wound.</characte
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"></characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -10109,6 +10119,11 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
+                      <costs>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -10158,6 +10173,11 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
+                      <costs>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -10317,6 +10337,11 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
+                      <costs>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -10416,6 +10441,11 @@ of any frag grenades and krak grenades they use to 24”</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
+                      <costs>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
